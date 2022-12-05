@@ -1,0 +1,57 @@
+.Dash_Main {
+    min-height: 90vh;
+    width: 100%;
+    background:linear-gradient(to right top, #65dfc9, #65dfc9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dash_Contain {
+    background: white;
+    width: 60%;
+    height: 75vh;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+    z-index: 2;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+}
+.Circle1, .Circle2 {
+    width:150px;
+    height : 150px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+    position: absolute;
+    border-radius: 50%;
+}
+.Circle1 {
+    bottom: 1.2%;
+    left: 15%;
+    background-color: blue;
+}
+.Circle2 {
+    top: 15%;
+    right: 15%;
+    background-color: blue;
+}
+.Profile {
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+  width: 30%;
+  height: 100%;
+}
+.Dashboard {
+    width: 70%;
+    height:100%;
+}
+
+@media screen and (max-width:650px) {
+    .Profile {
+        display: none;
+    }
+    .Dashboard{
+         width: 100%;
+    }
+    .Dash_Contain {
+        width: 90%;
+    }
+}
