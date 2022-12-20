@@ -1,12 +1,10 @@
-import React from 'react'
-import Dashboard from './Home/Dashboard/Dashboard'
+
+import Dashboard from './Home/Dashboard/Dashboard';
 
 const Home = () => {
-  return (
-    <div>
+    return (<div className='Home'>
         <Dashboard />
-    </div>
-  )
+    </div>)
 }
 
 export default Home
